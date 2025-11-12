@@ -9,7 +9,7 @@ public class FibonacciSeries {
       int val2=1;
       for( int i=0;i<rang-1;i++)
       { 
-    	int val = val1+val2;
+    	int val = val1+val2;// to get val as 1 as excepted
     	System.out.println(val);
     	val1= val2;
     	val2=val;
@@ -19,3 +19,4 @@ public class FibonacciSeries {
 	}
 
 }
+
